@@ -112,10 +112,11 @@ div[class*="LandingBlock-Docs"] li a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-/* 
-#products {
 
-} */
+#products {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .product-row {
   column-gap: 20px;
   padding-top: 48px;
