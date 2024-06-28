@@ -31,6 +31,10 @@ div[class*="LandingBlock-Docs"] li a {
 }
 
 .top-section {
+  background-image: url("https://files.readme.io/ec49ef9-background.svg"); /* Replace with your image path */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-size: contain; /* Ensure the image is displayed at full size */
+  background-position: bottom; /* Center the image */
   width: 100%;
   height: 100%;
   background-color: #011ac2;
@@ -67,12 +71,8 @@ div[class*="LandingBlock-Docs"] li a {
 }
 
 .div-with-background {
-  background-image: url("https://files.readme.io/ec49ef9-background.svg"); /* Replace with your image path */
-  background-repeat: no-repeat; /* Do not repeat the background image */
-  background-size: contain; /* Ensure the image is displayed at full size */
-  background-position: bottom; /* Center the image */
   width: 100%; /* Set the width of the div */
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 30px;
 }
 
@@ -88,6 +88,7 @@ div[class*="LandingBlock-Docs"] li a {
 .row-title {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 .row-title p {
   margin-bottom: 0;
@@ -99,12 +100,12 @@ div[class*="LandingBlock-Docs"] li a {
 .product-card {
   display: flex;
   flex-direction: column;
-  /* width: 301px; */
+  width: 100%;
   min-height: 108px;
   border-radius: 10px;
   overflow: hidden;
   background-color: white;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   /* justify-content: center;
   align-items: center; */
   padding: 10px;
@@ -113,14 +114,12 @@ div[class*="LandingBlock-Docs"] li a {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#products {
-  padding-left: 40px;
-  padding-right: 40px;
-}
 .product-row {
   column-gap: 20px;
   padding-top: 48px;
   padding-bottom: 48px;
+  justify-items: center;
+  align-items: center;
 }
 .product-card a:hover {
   text-decoration: none;
@@ -269,6 +268,30 @@ div[class*="LandingBlock-Docs"] li a {
 }
 
 .product-row-separator {
-  grid-column: span 4 / span 4;
-  height: 20px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .product-row-separator {
+    grid-column: span 4 / span 4;
+    height: 20px;
+    display: block;
+  }
+  .product-row {
+    justify-items: start;
+    align-items: start;
+  }
+  .row-title {
+    margin-bottom:0;
+  }
+  .product-card {
+    margin-bottom:0;
+  }
+}
+#products {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.rm-SearchToggle {
+  width: 367px;
 }
