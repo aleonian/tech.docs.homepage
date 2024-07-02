@@ -76,8 +76,8 @@ div[class*="LandingBlock-Docs"] li a {
 
 .hero-card {
   display: flex;
-  width: 359px;
-  height: 105px;
+  /* width: 359px;
+  height: 105px; */
   border-radius: 10px;
   overflow: hidden;
   background-color: white;
@@ -88,10 +88,15 @@ div[class*="LandingBlock-Docs"] li a {
   font-size: 100%;
   margin-top: 0;
   margin-bottom: 0;
+  padding-right: 1rem;
+  line-height: 20px;
 }
 .hero-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.top-section .hero-card p {
+  font-size: 14px;
 }
 .div-with-background a:hover {
   text-decoration: none;
@@ -172,7 +177,14 @@ div[class*="LandingBlock-Docs"] li a {
   margin-left: 10px;
   margin-top: 5px;
   margin-right: 5px;
+  line-height: 20px;
 }
+
+.product-card h3 {
+  font-size: 100%;
+  line-height: 20px;
+}
+
 .left-section {
   /* width: 25%; */
   width: 120px;
@@ -192,6 +204,7 @@ div[class*="LandingBlock-Docs"] li a {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  width: calc(100% - 120px);
 }
 
 .top-fourth {
@@ -199,11 +212,11 @@ div[class*="LandingBlock-Docs"] li a {
   display: flex;
   align-items: center;
   margin-left: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .top-fourth img {
-  margin-right: 0;
-  margin-left: 20px;
+  margin: 0;
 }
 
 .top-fourth h2 {
