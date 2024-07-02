@@ -150,6 +150,12 @@ div[class*="LandingBlock-Docs"] li a {
   margin-right: 0;
   margin-left: 0;
 }
+.resource #arrow {
+  height: 20px;
+  width: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
 .product-card-top h3 {
   margin-left: 10px;
   margin-top: 5px;
@@ -282,10 +288,10 @@ div[class*="LandingBlock-Docs"] li a {
     align-items: start;
   }
   .row-title {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
   .product-card {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
 }
 #products {
