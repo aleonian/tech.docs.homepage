@@ -187,7 +187,7 @@ div[class*="LandingBlock-Docs"] li a {
 } */
 
 .right-section {
-  width: 75%;
+  /* width: 75%; */
   padding: 1rem;
   display: flex;
   flex-direction: column;
