@@ -86,7 +86,7 @@ div[class*="LandingBlock-Docs"] li a {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .hero-card h3 {
-  font-size: 100%;
+  font-size: 1.17em;
   margin-top: 0;
   margin-bottom: 0;
   padding-right: 1rem;
