@@ -333,3 +333,6 @@ div[class*="LandingBlock-Docs"] li a {
 .rm-SearchToggle {
   width: 367px;
 }
+#product {
+  border-bottom: solid 1px #aec4d7;
+}
