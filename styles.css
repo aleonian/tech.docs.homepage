@@ -50,8 +50,9 @@ div[class*="LandingBlock-Docs"] li a {
 .top-section .content h1 {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700; /* Bold weight */
-  font-size: 40px;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
   text-align: center;
   margin-top: 0;
 }
@@ -90,6 +91,7 @@ div[class*="LandingBlock-Docs"] li a {
   margin-bottom: 0;
   padding-right: 1rem;
   line-height: 20px;
+  font-weight: 700;
 }
 .hero-card:hover {
   transform: translateY(-10px);
@@ -123,9 +125,10 @@ div[class*="LandingBlock-Docs"] li a {
   overflow: hidden;
   background-color: white;
   margin-bottom: 20px;
-  /* justify-content: center;
-  align-items: center; */
-  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   height: fit-content;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -151,22 +154,24 @@ div[class*="LandingBlock-Docs"] li a {
   display: flex;
 }
 .product-card-bottom {
-  margin-left: 40px;
+  margin-left: 42px;
 }
 .product-card-top #icon {
-  height: 28px;
-  width: 28px;
-  margin-right: 0;
-  margin-right: 0;
-  margin-left: 0;
+  max-width: 100%;
+  height: auto;
 }
 .product-card-top #arrow {
   height: 20px;
   width: 20px;
-  margin-top: 5px;
+  margin-top: 0;
   margin-right: 0;
   margin-left: 0;
 }
+
+.product-card .image-container {
+  width: 28px !important;
+}
+
 .resource #arrow {
   height: 20px;
   width: 20px;
@@ -174,15 +179,15 @@ div[class*="LandingBlock-Docs"] li a {
   margin-left: 0;
 }
 .product-card-top h3 {
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-left: 1rem;
+  margin-top: 0;
   margin-right: 5px;
   line-height: 20px;
 }
 
 .product-card h3 {
-  font-size: 100%;
-  line-height: 20px;
+  font-size: inherit;
+  line-height: 15px;
 }
 
 .left-section {
