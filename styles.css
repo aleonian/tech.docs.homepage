@@ -1,7 +1,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-
+ol {
+    list-style-type: decimal!important;
+}
 section.rm-LandingPageHeader {
   display: none;
 }
