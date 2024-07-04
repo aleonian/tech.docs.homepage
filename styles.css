@@ -30,6 +30,10 @@ div[class*="LandingBlock-Docs"] li a {
   color: blue !important;
 }
 
+a {
+  outline-color: #1f5bff;
+}
+
 .top-section {
   background-image: url("https://files.readme.io/ec49ef9-background.svg"); /* Replace with your image path */
   background-repeat: no-repeat; /* Do not repeat the background image */
@@ -141,8 +145,12 @@ div[class*="LandingBlock-Docs"] li a {
   justify-items: center;
   align-items: center;
 }
-.product-card a:hover {
+#products a:hover {
   text-decoration: none;
+}
+#other-resources a:hover {
+  text-decoration: underline;
+  color: #1F5BFF;
 }
 
 .product-card:hover {
@@ -335,4 +343,10 @@ div[class*="LandingBlock-Docs"] li a {
 }
 #product {
   border-bottom: solid 1px #aec4d7;
+}
+#product:last-child{
+  border-bottom: none;
+}
+#product h2{
+  margin-top: 0;
 }
