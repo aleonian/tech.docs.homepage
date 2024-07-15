@@ -2,17 +2,21 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 ol {
-    list-style-type: decimal!important;
+  list-style-type: decimal !important;
 }
 
 /* Target second-level <li> elements */
 ol ol li {
-    list-style-type: disc; /* Use bullet points */
+  list-style-type: disc; /* Use bullet points */
 }
 
 /* Optional: Ensure the first level <li> elements use decimal indexes */
 ol > li {
-    list-style-type: decimal; /* Use decimal indexes */
+  list-style-type: decimal; /* Use decimal indexes */
+}
+
+.markdown-body p {
+  margin-bottom: 0;
 }
 
 section.rm-LandingPageHeader {
@@ -126,9 +130,6 @@ a {
   flex-direction: column;
   margin-bottom: 20px;
 }
-.row-title p {
-  margin-bottom: 0;
-}
 
 .row-title h2 {
   margin: 0;
@@ -163,7 +164,7 @@ a {
 }
 #other-resources a:hover {
   text-decoration: underline;
-  color: #1F5BFF;
+  color: #1f5bff;
 }
 
 .product-card:hover {
@@ -214,7 +215,7 @@ a {
 
 .left-section {
   /* width: 25%; */
-  width: 120px;
+  width: 100px;
   background-color: #ccd1f2;
   padding: 1px;
   /* border: 1px solid white; */
@@ -227,7 +228,7 @@ a {
 
 .right-section {
   /* width: 75%; */
-  padding: 1rem;
+  padding: 0.75rem 0;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -358,9 +359,9 @@ a {
 #product {
   border-bottom: solid 1px #aec4d7;
 }
-#product:last-child{
+#product:last-child {
   border-bottom: none;
 }
-#product h2{
+#product h2 {
   margin-top: 0;
 }
